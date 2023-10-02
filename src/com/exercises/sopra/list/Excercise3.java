@@ -56,7 +56,6 @@ public class Excercise3 {
 		System.out.println(sb.toString());
 		
 		for (String ele: this.myList) {
-			//long myNum = Long.parseLong(ele);
 			myNewList.add(sortTheNum(ele));
 		}
 		System.out.println(myNewList);
